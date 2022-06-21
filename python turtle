@@ -1,0 +1,12 @@
+import turtle
+turtle.speed(50)
+turtle.pensize(2)
+turtle.bgcolor("black")
+for a in range(10):
+    for colour in ["red","pink",'yellow',"yellow green",]:
+        turtle.color(colour)
+        turtle.left(10)
+        turtle.circle(100)
+turtle.hideturtle()
+
+
